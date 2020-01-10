@@ -1,0 +1,10 @@
+{
+  "env": {
+    "baseUrl": "http://automationpractice.com/index.php?controller=authentication"
+  },
+  "defaultCommandTimeout": 20000,
+  "pageLoadTimeout": 10000,
+  "viewportHeight": 660,
+  "viewportWidth": 1000,
+  "reporter": "mochawesome"
+}
