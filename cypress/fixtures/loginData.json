@@ -1,4 +1,6 @@
 {
+  "relLoggedInUrl": "?controller=my-account",
+  "relLoginUrl": "?controller=authentication",
   "emailInvalid": "invalid@email.com",
   "emailValid": "yegor-trakhinin@mail.ru",
   "emailInvalidFormat": "invformat@email",
@@ -6,6 +8,5 @@
   "passwdInvalid": "12345678",
   "errorAuthDenied": "Authentication failed.",
   "errorEmailFrmtInv": "Invalid email address.",
-  "loggedInUrl": "http://automationpractice.com/index.php?controller=my-account",
   "myAccountName": "Yegor Trakhinin"
 }

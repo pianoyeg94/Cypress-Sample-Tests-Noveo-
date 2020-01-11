@@ -4,16 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "headlessMode": "node_modules\\.bin\\cypress run",
+    "headedMode": "node_modules\\.bin\\cypress open"
   },
   "author": "Yegor Trakhinin",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^3.8.1"
   },
-  "dependencies": {
-    "cypress-promise": "^1.0.2",
-    "mocha": "^7.0.0",
-    "mochawesome": "^4.1.0"
-  }
+  "dependencies": {}
 }
