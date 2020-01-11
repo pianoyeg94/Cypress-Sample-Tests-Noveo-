@@ -5,13 +5,13 @@ import LoginPage from '../../support/pageObjects/LoginPage';
 const loginPage = new LoginPage();
 
 describe('Test Login Functionality', () => {
-  before('Go To Base Url', () => {
+  before('Navigate To Login Url', () => {
     cy.fixture('loginData').then(data => {
       cy.visit(`${Cypress.env('baseUrl')}${data.relLoginUrl}`);
     });
   });
 
-  beforeEach('Import Data', function() {
+  beforeEach('Import Data and Handle Common Steps', function() {
     // Get data from fixtures and provide its instance to all of the following tests
     cy.fixture('loginData').then(data => {
       this.data = data;
@@ -63,7 +63,7 @@ describe('Test Login Functionality', () => {
     );
   });
 
-  it('Positive Scenario', function() {
+  it('Positive Scenario (Successfull Login)', function() {
     // Custom commands used, for further details please check out the support/commands module
     cy.provideAuthCredentials(
       this.data.emailValid, 
