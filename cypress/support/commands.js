@@ -2,7 +2,9 @@ import LoginPage from './pageObjects/LoginPage';
 
 const loginPage = new LoginPage();
 
-// This custom command is supposed to provide user credentials and submit the login form
+// This custom command is supposed to provide user credentials and submit the login form.
+// Could be more generic (to deal with all types of forms) like the resetForm() command down bellow, 
+// but this one is just for demonstration purposes.
 Cypress.Commands.add('provideAuthCredentials', (email, password) => {
   loginPage.getEmailInput().type(email);
   loginPage.getPasswordInput().type(password);
@@ -30,7 +32,7 @@ Cypress.Commands.add(
   }
 );
 
-// Resets the whole form of an arbitrary "length"
+// Resets a form of an arbitrary "length"
 Cypress.Commands.add('resetForm', (fields) => {
   for (const field of fields) {
     field().clear();
