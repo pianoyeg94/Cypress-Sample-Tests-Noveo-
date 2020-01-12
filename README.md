@@ -1,4 +1,6 @@
 # Cypress-Sample-Tests-Noveo-
 For Noveo
 
-Sample Test Suite in - integration/examples
+Sample Automated Test Suite in - integration/examples
+
+Sample Manual tests in doc file
