@@ -6,7 +6,7 @@
   "emailInvalidFormat": "invformat@email",
   "passwdValid": "test1234",
   "passwdInvalid": "12345678",
-  "errorAuthDenied": "Authentication failed.",
-  "errorEmailFrmtInv": "Invalid email address.",
-  "myAccountName": "Yegor Trakhinin"
+  "errorAuthDenied": "authentication failed",
+  "errorEmailFrmtInv": "invalid email address",
+  "myAccountName": "yegor trakhinin"
 }

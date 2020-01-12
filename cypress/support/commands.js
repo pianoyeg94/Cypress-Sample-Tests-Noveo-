@@ -20,13 +20,13 @@ Cypress.Commands.add(
     cy.url().should('eq', url);
     if (!errorMode) {
       return loginPage.getUserAccountBadge().then($el => {
-        const text = $el.text();
+        const text = $el.text().toLowerCase();
         expect(text).to.contain(textConfirm);
       });
     } 
     
     loginPage.getAlertDangerMsg().then($el => {
-      const text = $el.text();
+      const text = $el.text().toLowerCase();
       expect(text).to.contain(textConfirm);
     });
   }
