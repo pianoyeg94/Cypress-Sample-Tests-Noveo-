@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "headlessMode": "node_modules\\.bin\\cypress run",
-    "headedMode": "node_modules\\.bin\\cypress open"
+    "headlessMode": "cypress run --record --key 68f96707-878f-423f-9c27-05fa5726f458",
+    "headedMode": "cypress open"
   },
   "author": "Yegor Trakhinin",
   "license": "ISC",

@@ -1,12 +1,24 @@
 {
-  "relLoggedInUrl": "?controller=my-account",
-  "relLoginUrl": "?controller=authentication",
-  "emailInvalid": "invalid@email.com",
-  "emailValid": "yegor-trakhinin@mail.ru",
-  "emailInvalidFormat": "invformat@email",
-  "passwdValid": "test1234",
-  "passwdInvalid": "12345678",
-  "errorAuthDenied": "authentication failed",
-  "errorEmailFrmtInv": "invalid email address",
-  "myAccountName": "yegor trakhinin"
+  "relativeUrls": {
+    "loggedInUrl": "?controller=my-account",
+    "loginUrl": "?controller=authentication"
+  },
+  "email": {
+    "invalid": "invalid@email.com",
+    "invalidFormat": "invformat@email",
+    "valid": "yegor-trakhinin@mail.ru"
+  },
+  "password": {
+    "invalid": "12345678",
+    "valid": "test1234"
+  },
+  "errors": {
+    "authDenied": "authentication failed",
+    "invalidEmailFormat": "invalid email address"
+  },
+  "textFromTheDOM": {
+    "forComparison": {
+      "accountName": "yegor trakhinin"
+    }
+  }
 }

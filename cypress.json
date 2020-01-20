@@ -5,5 +5,6 @@
   "defaultCommandTimeout": 20000,
   "pageLoadTimeout": 10000,
   "viewportHeight": 660,
-  "viewportWidth": 1000
+  "viewportWidth": 1000,
+  "projectId": "q2wg5c"
 }
