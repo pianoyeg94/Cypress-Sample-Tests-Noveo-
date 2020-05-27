@@ -22,7 +22,7 @@ https://www.cypress.io/dashboard/
 1) Sample Automated Test Suite entry point in: 
     cypress/integration/testSamples/login_spec.js
 
-All the necessary comments in the entry point module are provided, 
+All the necessary comments are provided in the entry point module, 
 just follow them and you'll get a pretty good understanding of what's going on in the framework.
 
 2) Sample Manual Tests in the doc extension file.
