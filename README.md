@@ -25,4 +25,4 @@ https://www.cypress.io/dashboard/
 All the necessary comments are provided in the entry point module, 
 just follow them and you'll get a pretty good understanding of what's going on in the framework.
 
-2) Sample Manual Tests in the doc extension file.
+2)  Sample Manual Tests in the doc extension file.
