@@ -19,7 +19,7 @@ https://www.cypress.io/dashboard/
 
 "headedMode" - will be triggered either in the electron or chrome browsers.
 
-1) Sample Automated Test Suite entry point in: 
+1)  Sample Automated Test Suite entry point in: 
     cypress/integration/testSamples/login_spec.js
 
 All the necessary comments are provided in the entry point module, 
