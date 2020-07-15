@@ -15,7 +15,7 @@ This dashboard is private to the project and my github account,
 so you wan't have access to it.
 For further info about the cypress dashboard please visit:  
 https://www.cypress.io/dashboard/
-
+  
 
 "headedMode" - will be triggered either in the electron or chrome browsers.
 
